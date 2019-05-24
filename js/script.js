@@ -27,7 +27,7 @@ function dembel() {
   }
 
   element.innerHTML =
-    days + " д " + hours + " ч " + minutes + " мин " + seconds + " сек";
+    days + " д " + hours + " ч<br>" + minutes + " мин " + seconds + " сек";
 
   setTimeout(dembel, 1000);
 }
