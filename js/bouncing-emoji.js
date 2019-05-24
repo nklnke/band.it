@@ -53,7 +53,7 @@ window.addEventListener("resize", resizeDetect);
 //utility functions
 function resizeDetect() {
   windowSize.w = window.innerWidth - 125;
-  windowSize.h = window.innerHeight - 225;
+  windowSize.h = window.innerHeight - 210;
   ballSize.min = Math.round(windowSize.w / 10 - 150);
   ballSize.max = Math.round(windowSize.w / 10 + 100);
 }
