@@ -1,6 +1,6 @@
 function dembel() {
   var nowDate = new Date(),
-    banditDate = new Date(2019, 05 - 1, 24, 18, 0, 0), // 24.05.2019 18:00
+    banditDate = new Date(2019, 11 - 1, 19, 0, 0, 0), // 24.05.2019 18:00
     result = banditDate - nowDate,
     element = document.getElementById("dembel");
 
